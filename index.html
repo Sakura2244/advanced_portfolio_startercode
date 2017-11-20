@@ -25,44 +25,61 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Jennifer Zheng</a>
-                </div>
-                <div>
-                    <ul class="nav nav-pills">
-                        <li class="navbtn"><a href="index.html">Home</a></li>
-                        <li class="navbtn"><a href="about.html">About</a></li>
-                        <li class="dropdown navbtn">
-                            <a class="dropbtn" id="suppliesbtn" href="supplies.html">Projects</a>
-                            <div class="dropdown-content" id="myScrollspy">
-                                <a href="supplies.html #food">Project One</a>
-                                <a href="supplies.html #bed">Project Two</a>
-                                <a href="supplies.html #clothes">Project Three</a>
-                                <a href="supplies.html #accessories">Project Four</a>
-                                <a href="supplies.html #cart">Project Five</a>
-                            </div>
-                        </li>
-                        <li class="navbtn"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Jennifer Zheng</a>
             </div>
+            
+            <ul class="nav nav-pills ">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
         </nav>
     
     <!-- Header -->
     
+        <header>
+            <div class="row">
+                <div class="col-xs-3">
+                    <a class="thumbnail">
+                        <img id=profile src="images/selfie.png">
+                    </a>
+                </div>
+            </div>
+            
+        </header>
 
     <!-- Portfolio Grid Section -->
     
-
+        
     <!-- About Section -->
-   
-
+            
+            <div id="About" class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8">
+                    <h2 class="white">
+                    I took ScriptEd class in my junior year because I wanted to learn more about designing and improve my designing skills. I love to be in the fashion world where I design outfits which coding expand my designing world. My designing skills improve when I design games and websites. 
+                    </h2>
+                </div>
+                <div class="col-xs-2"></div>
+            </div>
+            <div id="Projects" class="row">
+                <div class="thumbnail col-md-4 col-xs-6">
+                    <img src="images/project1.png">
+                </div>
+                <h2 class="white"> <a href="https://preview.c9users.io/natsumi3613/lia-dog-shop/index.html">Project #1</a></h2>
+                <div class="col-md-4 col-xs-6"></div>
+                <div class="col-md-4 col-xs-6"></div>
+            </div>
     <!-- Contact Section -->
-
+        
 
     <!-- Footer -->
 
