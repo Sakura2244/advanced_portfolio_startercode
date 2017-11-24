@@ -14,34 +14,21 @@ nav{
 body{
     background-image: url(https://ewhenson.files.wordpress.com/2015/12/night-sky-wide-wallpaper.jpg);
 }
+.center{
+    text-align: center;
+}
 .white{
     font-size: 20px;
-    color: white;
+    color: #80bfff;
 }
 img{
     size:30px;
 }
-
-/* Header CSS */
-
-
-
-/* Section CSS */
-
-
-
-/* About Section CSS */
-
-
-
-/* Portfolio Item CSS */
-
-
-
-/* Footer CSS */
-
-
-
-/* Button CSS */
+.purple{
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    color: #9B59B6;
+}
 
 
