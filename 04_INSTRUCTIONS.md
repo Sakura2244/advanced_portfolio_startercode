@@ -24,7 +24,7 @@ In this unit, coders will create an object representation of their Portfolio pag
 6) Host project on gh-pages.
 7) Add links to working url and project source code to your portfolio with an image and short description of the project.
 
-## Projects Extensions:
+## projects Extensions:
 * 
 
 ## References/Tools

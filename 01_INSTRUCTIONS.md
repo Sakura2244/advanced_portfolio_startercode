@@ -24,7 +24,7 @@ In this unit, coders will create an online Portfolio. The Portfolio will provide
 6) Host project on gh-pages.
 7) Add links to working url and project source code to your portfolio with an image and short description of the project.
 
-## Projects Extensions:
+## projects Extensions:
 * Add a modal to your site
 * Create another about me page that your site links to
 * Add scrollspy to your project

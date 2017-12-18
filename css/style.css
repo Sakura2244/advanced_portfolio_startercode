@@ -1,32 +1,88 @@
-/* Nav Bar CSS */
-nav{
-    min-width: 790px;
+html{
+    min-height: 100%;
 }
-.container-fluid{
-    width: 100%;
-    background-image: url(https://i.ytimg.com/vi/XHiLH3vXL5M/maxresdefault.jpg);
+body{
+    min-height: 100%;
+    min-width: 500px;
 }
 
+
+
+.content{
+    background-image: url("https://i.pinimg.com/originals/9c/2d/6e/9c2d6ee8ddafee248e06868fea46300a.jpg");
+    background-size: cover;
+}
+
+
+
+.container-fluid{
+    background-color: white;
+}
 .container-fluid>.navbar-header>a{
-    color: #9B59B6;
+    color: #7D3C98;
     font-family: 'Pacifico', cursive;
     font-size: 24px;
 }
 .container-fluid>.navbar-header>a:hover{
-    color: #7D3C98;
+    color: #9B59B6;
 }
-body{
-    background-image: url(https://ewhenson.files.wordpress.com/2015/12/night-sky-wide-wallpaper.jpg);
-}
-.center{
+
+
+
+#indexcontent{
     text-align: center;
 }
+#profile{
+    height: 150px;
+    border: 6px solid #F5F5F5;
+    border-radius: 10px;
+}
+#name{
+    color: #6A287E;
+}
+
+
+
+#projectscontent2{
+    background-color: rgba(255,255,255,0.4);
+    max-width: 80%;
+}
+.projects{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.thumbnail{
+    height: 400px;
+}
+
+
+
+container{
+    text-align: center;
+    max-width: 80%;
+}
+#aboutinfo{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    color: #9B59B6;
+}
+
+
+
+#contact{
+    text-align: center;
+    color: #9B59B6;
+}
+
+
+
+
+
+
+
 .white{
     font-size: 20px;
     color: #80bfff;
-}
-img{
-    size:30px;
 }
 .purple{
     text-align:center;
@@ -34,5 +90,3 @@ img{
     font-family: 'Courgette', cursive;
     color: #9B59B6;
 }
-
-
