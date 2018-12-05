@@ -90,12 +90,12 @@ body{
     
 }
 .thumbnail{
-    height: 410px;
+    height: 420px;
 }
 h4.projectnames>a{
     font-family: 'Iceland', cursive;
     color: black;
-    font-size: 25px;
+    font-size: 24px;
 }
 h4.projectnames>a:hover{
     font-family: 'Iceland', cursive;
