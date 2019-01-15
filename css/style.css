@@ -11,13 +11,16 @@ body{
 
 
 .content{
-    background-image: url("https://storge.pic2.me/c/1360x800/824/minimal_38.jpg");
+    background-image: url("http://img07.tooopen.com/images/20170803/tooopen_sy_218809829476.jpg");
     /*
     found many good img:
     https://www.google.com/search?q=%E4%B8%AD%E5%9B%BD%E9%A3%8E+%E8%83%8C%E6%99%AF&tbm=isch&tbs=rimg:CfREyBd91n3WIjjobJphhKsfVW92lXFPaRwol1jQ7vgHzrT0BqL6jjdVdYc5WKB76D4tna4jxLII56CAHaaGJr0BXyoSCehsmmGEqx9VEa5cVvR7YZ5kKhIJb3aVcU9pHCgRTECrU0bb4xMqEgmXWNDu-AfOtBHFND2G5B3fIyoSCfQGovqON1V1EUidbecBuVJ1KhIJhzlYoHvoPi0Rfv9WFW8L3ZIqEgmdriPEsgjnoBEDVI4NxQvRTCoSCYAdpoYmvQFfEQw9TBVGWcIG&tbo=u&sa=X&ved=2ahUKEwiXo__UjavfAhWumOAKHectDbAQ9C96BAgBEBs#imgdii=9Aai-o43VXWMvM:&imgrc=pAorxT0lSEz7pM:
-    --Wye
+    Wye
     */
-    background-size: cover;
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:700px;
 }
 
 
@@ -50,8 +53,8 @@ body{
     background-color: #D3D3D3;
 }
 .nav-pills>li>a:hover{
-    background-color: black;
-    color: black;
+    background-color: white;
+    color: white;
 }
 
 
@@ -59,14 +62,14 @@ body{
     text-align: center;
 }
 #profile{
-    height: 200px;
+    height: 150px;
     border: 6px solid #F5F5F5;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 40px;
 }
 
 #name{
-    color: white;
+    color: black;
     font-family: 'Iceland', cursive;
 }
 
@@ -110,7 +113,7 @@ container{
 #aboutme{
     margin-top: 40px;
     text-align: center;
-    color: white;
+    color: black;
 }
 #aboutinfo{
     text-align:center;
@@ -123,7 +126,7 @@ container{
 
 #contact{
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Iceland', cursive;
 }
 
@@ -135,7 +138,7 @@ container{
     text-align:center;
     font-size: 30px;
     font-family: 'Iceland', cursive;
-    color: white;
+    color: black;
 }
 footer{
     text-align: center;
